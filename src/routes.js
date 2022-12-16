@@ -19,9 +19,6 @@ const routes = [
     method: 'GET',
     path: '/notes/{id}',
     handler: getNoteByIdHandler,
-    options: {
-      cors: true,
-    },
   },
   {
     method: 'PUT',
